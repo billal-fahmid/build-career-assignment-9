@@ -16,7 +16,7 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div> */}
-                    <a className="normal-case text-xl font-bold">Build Career</a>
+                    <a className="normal-case text-xl font-bold">Workwise</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
 

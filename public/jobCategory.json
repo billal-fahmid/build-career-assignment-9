@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "jobSector": "Technology",
+      "availableJobs": 5,
+      "logo": "https://dummyimage.com/200x200/000/fff&text=Tech+Company"
+    },
+    {
+      "id": 2,
+      "jobSector": "Finance",
+      "availableJobs": 10,
+      "logo": "https://dummyimage.com/200x200/000/fff&text=Finance+Company"
+    },
+    {
+      "id": 3,
+      "jobSector": "Healthcare",
+      "availableJobs": 3,
+      "logo": "https://dummyimage.com/200x200/000/fff&text=Healthcare+Company"
+    },
+    {
+      "id": 4,
+      "jobSector": "Education",
+      "availableJobs": 7,
+      "logo": "https://dummyimage.com/200x200/000/fff&text=Education+Company"
+    }
+  ]
+  
