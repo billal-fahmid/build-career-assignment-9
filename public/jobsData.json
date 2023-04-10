@@ -6,14 +6,14 @@
         "job_type": "Full-time",
         "location": "San Francisco, CA",
         "salary_range": "$120,000 - $150,000",
-        "job_description": "We are seeking an experienced software engineer to join our team...",
-        "job_responsibility": "Design and develop new software applications...",
+        "job_description": "Software engineers focus on applying the principles of engineering to software development. Their role includes analyzing and modifying existing software as well as designing, constructing and testing end-user applications that meet user needs — all through software programming languages",
+        "job_responsibility": "Develops software solutions by studying information needs, conferring with users, studying systems flow, data usage, and work processes; investigating problem areas; and following the software development lifecycle.",
         "educational_requirement": "Bachelor's degree in Computer Science or related field",
         "job_title": "Software Engineer",
         "phone": "415-555-1234",
         "email": "jobs@acme.com",
         "address": "123 Main St, Suite 100, San Francisco, CA 94110",
-        "experiences":"2 - 7 years"
+        "experiences": "2 - 7 years"
     },
     {
         "id": 2,
@@ -22,14 +22,14 @@
         "job_type": "Contract",
         "location": "New York, NY",
         "salary_range": "$80 - $100 per hour",
-        "job_description": "We are looking for a UX/UI designer to create engaging and intuitive user experiences...",
-        "job_responsibility": "Collaborate with product managers and developers to create wireframes and prototypes...",
+        "job_description": "UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards.",
+        "job_responsibility": "UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards.",
         "educational_requirement": "Bachelor's degree in Graphic Design or related field",
         "job_title": "UX/UI Designer",
         "phone": "212-555-5555",
         "email": "jobs@techinnovators.com",
         "address": "456 Broadway, Floor 7, New York, NY 10013",
-        "experiences":"1 - 2 years"
+        "experiences": "1 - 2 years"
     },
     {
         "id": 3,
@@ -38,14 +38,14 @@
         "job_type": "Part-time",
         "location": "Chicago, IL",
         "salary_range": "$30 - $40 per hour",
-        "job_description": "We are seeking a skilled content writer to join our marketing team...",
-        "job_responsibility": "Write engaging and informative blog posts, whitepapers, and social media content...",
+        "job_description": "A Content Writer is a professional who writes informative and engaging articles to help brands showcase their products. They write on a range of subjects and are responsible for creating the best possible written or visual content, from blog posts to press releases",
+        "job_responsibility": "Writing, editing and publishing engaging content for various social networks, including Facebook, Twitter and Instagram. Optimizing social media posts (language, tone, message) based on our target audience's behaviors.",
         "educational_requirement": "Bachelor's degree in Marketing, Communications, or related field",
         "job_title": "Content Writer",
         "phone": "312-555-5555",
         "email": "jobs@creativemindsinc.com",
         "address": "789 State St, Suite 200, Chicago, IL 60610",
-        "experiences":"2 - 4 years"
+        "experiences": "2 - 4 years"
     },
     {
         "id": 4,
@@ -54,14 +54,14 @@
         "job_type": "Full-time",
         "location": "Seattle, WA",
         "salary_range": "$80,000 - $100,000",
-        "job_description": "We are looking for a renewable energy specialist to join our team...",
-        "job_responsibility": "Design and implement renewable energy systems...",
+        "job_description": "Renewable energy specialists assess studies on emerging technologies, understand environmental impacts of energy production, transfer their understanding to practical business strategies, and communicate though a variety of means, including public presentations.",
+        "job_responsibility": "Renewable energy specialists assess studies on emerging technologies, understand environmental impacts of energy production, transfer their understanding to practical business strategies, and communicate though a variety of means, including public presentations.",
         "educational_requirement": "Bachelor's degree in Environmental Science, Engineering, or related field",
         "job_title": "Renewable Energy Specialist",
         "phone": "206-555-5555",
         "email": "jobs@greenenergyco.com",
         "address": "456 Pike St, Suite 300, Seattle, WA 98101",
-        "experiences":"2 - 3 years"
+        "experiences": "2 - 3 years"
     },
     {
         "id": 5,
@@ -70,14 +70,14 @@
         "job_type": "Full-time",
         "location": "Los Angeles, CA",
         "salary_range": "$90,000 - $120,000",
-        "job_description": "We are seeking a licensed nutritionist to join our team...",
-        "job_responsibility": "Provide nutrition counseling to clients, develop meal plans...",
+        "job_description": "Assess clients' nutritional and health needs. Counsel clients on nutrition issues and healthy eating habits. Develop meal and nutrition plans, taking clients' preferences and budgets into account. Evaluate and monitor the effects of nutrition plans and practices and make changes as needed.",
+        "job_responsibility": "Dietitians and nutritionists counsel clients on nutrition issues and healthy eating habits. Dietitians and nutritionists are experts in the use of food and nutrition to promote health and manage disease.",
         "educational_requirement": "Master's degree in Nutrition or related field",
         "job_title": "Licensed Nutritionist",
         "phone": "310-555-5555",
         "email": "jobs@healthwellnesscorp.com",
         "address": "789 Ocean Ave, Suite 400, Los Angeles, CA 90210",
-        "experiences":"1 - 3 years"
+        "experiences": "1 - 3 years"
     },
     {
         "id": 6,
@@ -86,14 +86,13 @@
         "job_type": "Full-time",
         "location": "Dallas, TX",
         "salary_range": "$150,000 - $200,000",
-        "job_description": "We are seeking an experienced investment banker to join our team...",
-        "job_responsibility": "Originate and execute M&A transactions...",
+        "job_description": "Investment bankers help their clients raise money in capital markets by issuing debt or selling equity in the companies. Other job duties include assisting clients with mergers and acquisitions (M&As) and advising them on unique investment opportunities such as derivatives.",
+        "job_responsibility": "An investment banker is responsible for raising capital for businesses and individuals by issuing debt and selling equity. Also known as an investment banking analysts, these highly analytical professionals oversee mergers, conduct research, and prepare legal and financial documents.",
         "educational_requirement": "Bachelor's degree in Finance or related field",
         "job_title": "Investment Banker",
         "phone": "214-555-5555",
         "email": "jobs@finservgroup.com",
         "address": "123 Main St, Suite 500, Dallas, TX 75202",
-        "experiences":"2 - 3 years"
+        "experiences": "2 - 3 years"
     }
 ]
-
