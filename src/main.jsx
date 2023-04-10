@@ -10,12 +10,14 @@ import Home from './components/Home';
 import Statistics from './components/Statistics';
 import Jobs from './components/Jobs';
 import Blog from './components/Blog';
+import { getJobsAndFeature } from './components/loader/getJobs&Features';
 
 
 const router = createBrowserRouter([
   {
     path:'/',
     element:<App></App>,
+    loader:getJobsAndFeature,
     children:[
       {
         path:'/',

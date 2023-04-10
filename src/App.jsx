@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import Header from './components/Header';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
+
+export const FeaturesContext = createContext([]);
 
 const App = () => {
+  const features = useLoaderData()
+  // console.log(features)
+
   return (
-    <div>
+
+    <FeaturesContext.Provider value={features}>
       <Header></Header>
       <Outlet></Outlet>
-    </div>
+    </FeaturesContext.Provider>
+
   );
 };
 
