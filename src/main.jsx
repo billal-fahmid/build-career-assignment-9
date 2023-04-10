@@ -11,6 +11,7 @@ import Statistics from './components/Statistics';
 import Jobs from './components/Jobs';
 import Blog from './components/Blog';
 import { getJobsAndFeature } from './components/loader/getJobs&Features';
+import JobDetails from './components/JobDetails';
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path:'jobs',
         element:<Jobs></Jobs>
+      },
+      {
+        path:'details/:id',
+        element:<JobDetails></JobDetails>
       },
       {
         path:'blog',
