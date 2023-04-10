@@ -1,27 +1,27 @@
 [
     {
       "id": 1,
-      "jobSector": "Technology",
-      "availableJobs": 5,
-      "logo": "https://dummyimage.com/200x200/000/fff&text=Tech+Company"
+      "jobSector": "Account & Finance",
+      "availableJobs": "300 Jobs Available",
+      "logo": "https://i.ibb.co/mSvG04d/accounts-1.png"
     },
     {
       "id": 2,
-      "jobSector": "Finance",
-      "availableJobs": 10,
-      "logo": "https://dummyimage.com/200x200/000/fff&text=Finance+Company"
+      "jobSector": "Creative Design",
+      "availableJobs": "100+ Jobs Available",
+      "logo": "https://i.ibb.co/DRSL54N/business-1.png"
     },
     {
       "id": 3,
-      "jobSector": "Healthcare",
-      "availableJobs": 3,
-      "logo": "https://dummyimage.com/200x200/000/fff&text=Healthcare+Company"
+      "jobSector": "Marketing & Sales",
+      "availableJobs": "150 Jobs Available",
+      "logo": "https://i.ibb.co/JBqT0kK/chip-1.png"
     },
     {
       "id": 4,
-      "jobSector": "Education",
-      "availableJobs": 7,
-      "logo": "https://dummyimage.com/200x200/000/fff&text=Education+Company"
+      "jobSector": "Engineering Job",
+      "availableJobs": "224 Jobs Available",
+      "logo": "https://i.ibb.co/VWZjd8S/Frame.png"
     }
   ]
-  
+ 
