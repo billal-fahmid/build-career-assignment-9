@@ -12,6 +12,7 @@ import Jobs from './components/Jobs';
 import Blog from './components/Blog';
 import { getJobsAndFeature } from './components/loader/getJobs&Features';
 import JobDetails from './components/JobDetails';
+import ErrorPage from './components/ErrorPage';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
     path:'/',
     element:<App></App>,
     loader:getJobsAndFeature,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',

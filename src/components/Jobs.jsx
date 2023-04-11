@@ -47,6 +47,7 @@ const Jobs = () => {
                                         <p className='flex items-center mr-8 font-semibold'><MapPinIcon className='h-5 w-5 mr-2'></MapPinIcon> {job.location}</p>
                                         <p className='flex items-center font-semibold'><CurrencyDollarIcon className='h-5 w-5 mr-2'></CurrencyDollarIcon> {job.salary_range}</p>
                                     </div>
+                                    {console.log(job.id)}
                                 </div>
                                 <div className='ml-36'>
                                     <Link to={`/details/:${job.id}`} className='btnn'>View Details</Link>
