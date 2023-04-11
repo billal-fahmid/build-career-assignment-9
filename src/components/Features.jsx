@@ -24,8 +24,8 @@ const Features = () => {
                             <h2 className='text-2xl font-semibold pb-2'>{feature.job_title}</h2>
                             <p className='text-xl'>{feature.company_name}</p>
                             <div className='flex my-4 gap-4'>
-                                <button className='outline-btn'>Full Time</button>
-                                <button className='outline-btn'>Remote</button>
+                                <button className='outline-btn'>{feature.job_type}</button>
+                                <button className='outline-btn'>{feature.type}</button>
                             </div>
                             <div className='flex gap-6 mb-6'>
                                 <p className='flex'>      <MapPinIcon className='h-5 w-5 mr-2'></MapPinIcon>
