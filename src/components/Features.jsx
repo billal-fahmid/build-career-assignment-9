@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const Features = () => {
     const allFeatures = useContext(FeaturesContext);
     const defaultShowFeatures = allFeatures.slice(0, 4);
-    console.log(defaultShowFeatures)
+    // console.log(defaultShowFeatures)
     // const [features ,setFeatures] = useState()
     // setFeatures(defaultShowFeatures)
 
 
     return (
-        <div className='mt-6'>
+        <div className='mt-6 mb-20'>
             <h1 className='text-center text-[#1A1919] text-5xl font-semibold py-6'>Featured Jobs</h1>
             <p className='text-center mb-10'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 

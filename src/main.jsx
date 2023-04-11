@@ -30,7 +30,8 @@ const router = createBrowserRouter([
       },
       {
         path:'jobs',
-        element:<Jobs></Jobs>
+        element:<Jobs></Jobs>,
+        loader:getJobsAndFeature,
       },
       {
         path:'details/:id',
