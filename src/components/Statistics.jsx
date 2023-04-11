@@ -57,8 +57,8 @@ const Statistics = () => {
             <h1 className='text-center text-[#1A1919] text-5xl font-semibold py-6 mb-16'>Assignment Marks</h1>
             <div className='mx-auto'>
                 <ComposedChart
-                    width={800}
-                    height={400}
+                    width={500}
+                    height={300}
                     data={data}
                     margin={{
                         top: 20,

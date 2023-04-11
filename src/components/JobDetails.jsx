@@ -19,10 +19,10 @@ const JobDetails = () => {
    }
 
     return (
-        <div className='px-16 py-32'>
+        <div className='md:px-16 py-32'>
             <h1 className='text-center text-[#1A1919] text-5xl font-semibold py-6 mb-16'>Job Details</h1>
-            <div className='flex mt-12'>
-                <div className="w-2/3">
+            <div className='flex justify-center flex-col md:flex-row mt-12'>
+                <div className="lg:w-2/3 px-5">
                     <p className='mb-6'><span className='font-bold'>Job Description:</span> {details.job_description}</p>
                     <p className='mb-6'> <span className='font-bold'>Job Responsibility:</span>{details.job_responsibility}</p>
                     <p className='font-bold'>Educational Requirements:</p>
@@ -30,7 +30,7 @@ const JobDetails = () => {
                     <p className='font-bold mt-6'>Experiences:</p>
                     <span>{details.experiences}</span>
                 </div>
-                <div className='w-1/3 '>
+                <div className='lg:w-1/3 px-5 '>
                     <div className='bg-blue-50 p-8 rounded-lg'>
                         <h3 className='text-xl font-bold text-gray-900 border-gray-400 border-b-2 pb-6'>Job Details</h3>
                         <hr />

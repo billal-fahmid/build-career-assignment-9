@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <div className="navbar bg-gray px-16 py-4">
+            <div className="navbar bg-gray px-16 py-4 flex flex-col md:flex-row">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Header = () => {
                     </div>
                     <a className="normal-case text-xl font-bold">Workwise</a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex ">
 
                     <div className='flex text-base gap-6 font-semibold '>
                         <Link to='/'>Home</Link>
@@ -30,7 +30,7 @@ const Header = () => {
 
                 </div>
                 <div className="navbar-end">
-                    <Link className='btnn '>Star Applying</Link>
+                    <Link to='/' className='btnn '>Star Applying</Link>
                 </div>
             </div>
         </>
