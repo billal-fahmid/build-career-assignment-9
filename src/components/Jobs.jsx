@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { getShoppingCart } from './utils/fakedb';
 import { Link, useLoaderData } from 'react-router-dom';
-import { CurrencyDollarIcon,MapPinIcon} from '@heroicons/react/24/solid'
+import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 const Jobs = () => {
     const features = useLoaderData();
-    console.log(features)
+    // console.log(features)
+    const [app , setApp] = useState([]);
 
     const [apply2, setApply] = useState([]);
 
@@ -13,6 +14,7 @@ const Jobs = () => {
         let arr = []
         const applyJobs = getShoppingCart()
         // console.log(applyJobs)
+        
         for (const job in applyJobs) {
             const apply = features.find(feature => feature.id == job);
             if (apply) (
@@ -21,15 +23,30 @@ const Jobs = () => {
         }
         // console.log(arr)
         setApply(arr)
+        setApp(arr)
 
     }, [])
-
-    console.log(apply2)
+    const handleFullTime =() =>{
+        const fullTime = app.filter(apply => apply.job_type == 'Full-time');
+        setApply(fullTime)
+    }
+    const handlePartTime=() =>{
+        const partTime = app.filter(apply => apply.job_type == 'Part-time');
+        setApply(partTime)
+    }
+console.log(app)
+    // console.log(apply2)
 
     return (
         <div className='px-16 py-32'>
             <h1 className='text-center text-[#1A1919] text-5xl font-semibold py-6 mb-16'>Applied Jobs</h1>
-
+            <div className='flex mb-5 gap-5 items-center text-right'>
+                <h1 className='text-2xl font-bold'>Fitler :</h1>
+                <div>
+                <button onClick={handleFullTime} className='outline-btn'>Full Time</button>
+                <button onClick={handlePartTime} className='outline-btn'>Part Time</button>
+                </div>
+            </div>
             <div className='flex flex-col gap-6'>
                 {
                     apply2.map(job => (
