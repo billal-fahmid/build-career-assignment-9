@@ -9,6 +9,7 @@ const addToDb = id => {
     const quantity = shoppingCart[id];
     if (!quantity) {
         shoppingCart[id] = true;
+         toast("Successfully Apply")
     }
     else {
         // const newQuantity = quantity + 1;
