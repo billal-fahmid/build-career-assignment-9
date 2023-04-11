@@ -13,6 +13,7 @@ import Blog from './components/Blog';
 import { getJobsAndFeature } from './components/loader/getJobs&Features';
 import JobDetails from './components/JobDetails';
 import ErrorPage from './components/ErrorPage';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const router = createBrowserRouter([

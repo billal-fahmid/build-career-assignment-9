@@ -50,7 +50,7 @@ const Jobs = () => {
                                     {console.log(job.id)}
                                 </div>
                                 <div className='ml-36'>
-                                    <Link to={`/details/:${job.id}`} className='btnn'>View Details</Link>
+                                    <Link to={`/details/${job.id}`} className='btnn'>View Details</Link>
                                 </div>
                             </div>
                         </div>

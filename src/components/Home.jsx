@@ -6,7 +6,7 @@ import Features from './Features';
 
 const Home = () => {
     return (
-        <div className='px-16'>
+        <div className='lg:px-16 sm:mx-5'>
            <HeroSection></HeroSection>
            <JobCategory></JobCategory>
            <Features></Features>

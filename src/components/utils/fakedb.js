@@ -1,4 +1,8 @@
 // use local storage to manage cart data
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const addToDb = id => {
     let shoppingCart = getShoppingCart();
     // add quantity
@@ -9,7 +13,7 @@ const addToDb = id => {
     else {
         // const newQuantity = quantity + 1;
         // shoppingCart[id] = newQuantity;
-        return alert ('already')
+        return toast("You Already Apply");
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 }
