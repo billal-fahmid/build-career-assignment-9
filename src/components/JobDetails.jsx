@@ -38,11 +38,11 @@ const JobDetails = () => {
                         <p className='text-xl mt-6 mb-4 flex items-center'> <CurrencyDollarIcon className='h-6 w-6 mr-2'></CurrencyDollarIcon> <span className='font-semibold'>Salary :</span>  {details.salary_range}</p>
                         </div>
 
-                        <p className='text-xl mb-6 flex '>  <span className='font-semibold'>Job Title : </span > {details.job_title}</p>
+                        <p className='text-xl mb-6 flex '>  <span className='font-semibold'>Job Title </span >{details.job_title}</p>
 
                         <h3 className='text-xl font-semibold text-gray-900 border-gray-400 border-b-2 pb-6 mb-6'>Contact Information</h3>
                         <p className='text-xl mb-6 flex items-center '><PhoneIcon className='mr-2 h-6 w-6'></PhoneIcon> <span className='font-semibold'>Phone :</span> {details.phone}</p>
-                        <p className='text-xl mb-6 flex items-center'><AtSymbolIcon className='h-6 w-6 mr-2'></AtSymbolIcon> <span className='font-semibold'>Email :</span > {details.email}</p>
+                        <p className='text-xl mb-6 flex items-center'><AtSymbolIcon className='h-6 w-6 mr-2'></AtSymbolIcon> <span className='font-semibold'>Email:</span >{details.email}</p>
                         <p className='text-xl mb-6 flex items-center'><MapPinIcon className='h-6 w-6 mr-2'></MapPinIcon> <span className='font-semibold'>Address :</span> {details.location}</p>
                         
                     </div>
